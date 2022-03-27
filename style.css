@@ -13,9 +13,18 @@ img.icon {
     height: 50px;
 }
 
-a.menuText {
+a.menuTextOne {
     position: relative;
     bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+
+a.menuTextTwo {
+    position: relative;
+    bottom: 103px;
+    left: 125px;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     font-weight: bold;
@@ -29,4 +38,14 @@ hr.one{
     position: relative;
     bottom: 63px;
     right: 90vh;
+}
+
+hr.two{
+    border: none;
+    border-left: 5px solid black;
+    height: 5vh;
+    width: 5px;
+    position: relative;
+    bottom: 146px;
+    right: 81vh;
 }
