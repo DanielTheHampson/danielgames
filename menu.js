@@ -12,7 +12,7 @@ window.onload = function() {
 
     // create icon
     var iconImg = document.createElement("img");
-    iconImg.src = "icon.png";
+    iconImg.src = "/icon.png";
     iconImg.className = "icon";
     homeLink.appendChild(iconImg);
 

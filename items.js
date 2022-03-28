@@ -10,7 +10,7 @@ function shrinkImage(x) {
 
 function itemClick(x) {
     if (x == 1) {
-        alert("item 1 clicked");
+        window.location.href = "saul";
     }
     if (x == 2) {
         alert("item 2 clicked");
