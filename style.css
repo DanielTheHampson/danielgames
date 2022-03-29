@@ -34,6 +34,15 @@ a.menuTextTwo {
     font-weight: bold;
 }
 
+a.menuTextThree {
+    position: relative;
+    bottom: 186px;
+    left: 210px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+
 hr.one{
     border: none;
     border-left: 5px solid black;
@@ -79,6 +88,30 @@ div.item2 {
     border-color: pink;
 }
 
+div.mitem1 {
+    margin-left: 1vh;
+    border-style: outset;
+    border-radius: 10px;
+    width: 25vh;
+    height: 15vh;
+    background-image: url("items/mitem1.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    border-color: pink;
+}
+
+div.mitem2 {
+    margin-left: 1vh;
+    border-style: outset;
+    border-radius: 10px;
+    width: 25vh;
+    height: 15vh;
+    background-image: url("items/mitem2.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    border-color: pink;
+}
+
 .wrapper {
     display: flex;
 }
@@ -89,4 +122,8 @@ div.item2 {
 
 .white {
     color: white;
+}
+
+video.model::-webkit-media-controls-timeline {
+    display: none;
 }

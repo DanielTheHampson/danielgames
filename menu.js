@@ -45,4 +45,14 @@ window.onload = function() {
 
     document.body.appendChild(maindiv);
     console.log("end menu construction");
+
+    // create model text
+    var modelText1 = document.createElement("a");
+    aboutText1.href = "/models";
+    var modelText2 = document.createElement("a");
+    modelText2.href = "/models";
+    modelText2.className = "menuTextThree";
+    modelText2.appendChild(document.createTextNode("Models"));
+    modelText1.appendChild(modelText2);
+    maindiv.appendChild(modelText1);
 }
