@@ -112,6 +112,18 @@ div.mitem2 {
     border-color: pink;
 }
 
+div.mitem3 {
+    margin-left: 1vh;
+    border-style: outset;
+    border-radius: 10px;
+    width: 25vh;
+    height: 15vh;
+    background-image: url("items/mitem3.png");
+    background-size: 100% 100%;
+    display: inline-block;
+    border-color: pink;
+}
+
 .wrapper {
     display: flex;
 }
